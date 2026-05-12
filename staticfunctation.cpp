@@ -49,4 +49,14 @@ int main() {
     Mahasiswa mhs3("Andi Janu");
     Mahasiswa mhs4("Joko Wahono");
 
- 
+    //memanggil prosedur printAll() 
+    mhs1.printAll();
+    mhs2.printAll();
+    mhs3.printAll();
+
+    //menampilkan NIM terakhir yang diproses
+    cout << "Akses dari luar object = " << Mahasiswa::getNim() << endl;
+    system("pause");
+    
+    return 0;
+}
