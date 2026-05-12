@@ -8,15 +8,3 @@ class buku{
         this->judul = judul;
         return *this; //chain function
     }
-string getjudul(){
-    return judul;
-}
-
-};
-
-int main(){
-    buku bukunya;
-    cout << bukunya.setjudul("Matematika").getjudul();  //chain function calls
-    return 0;
-}
-  
