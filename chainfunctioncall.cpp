@@ -8,3 +8,5 @@ class buku{
         this->judul = judul;
         return *this; //chain function
     }
+string getjudul(){
+    return judul;
